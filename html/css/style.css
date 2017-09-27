@@ -9,9 +9,9 @@ body {
 /*header*/
 
 #header {
-    height: 880px;
+    height: 800px;
     background: url(../img/header.png) no-repeat center center;
-    background-size: cover;
+    background-size: 1540px 1100px;
     text-align: center;
 }
 
@@ -41,7 +41,6 @@ body {
 /*    text-align: center;*/
         position: relative;
         left: 435px;
-   
 }
 
 .global-nav ul {
@@ -67,9 +66,10 @@ body {
 /*about*/
 
 #top-about{
-    padding: 40px 0 0 0;
+    padding: 80px 0 0 0;
     position: relative;
     overflow: hidden;
+    background-color: rgba(224,105,105,0.1);
 /*    background-color: #e06969;*/
 /*    opacity: */
 }
@@ -90,8 +90,10 @@ body {
 .about-title-border{
     display: block;
     width: 940px;
-    border-bottom: 11px solid #e06969;
+    height: 11px;
     margin: 0 auto 53px auto;
+/*    background-color: #e06969; */
+    background-image: linear-gradient(to top,#e06969,#fff);
 }
     
 .about-left{
@@ -114,6 +116,7 @@ body {
     padding: 80px 0 80px 0;
     position: relative;
     overflow: hidden;
+    background-color: rgba(224,105,105,0.2);
 }
 .event-title{
     text-align: center;
@@ -130,8 +133,9 @@ body {
 .event-title-border{
     display: block;
     width: 940px;
-    border-bottom: 11px solid #e06969;
+    height: 11px;
     margin: 0 auto 53px auto;
+    background-image: linear-gradient(to top,#e06969,#fff);
 }
 
 .event-list{
@@ -188,8 +192,9 @@ body {
 .news-title-border{
     display: block;
     width: 760px;
-    border-bottom: 2px solid #e06969;
+    height: 8px;
     margin-bottom: 20px;
+    background-image: linear-gradient(to top,#e06969,#fff);
 }
 
 .news-list{
@@ -207,7 +212,7 @@ body {
     width: 760px;
     height: 115px;
     margin-bottom: 16px;   
-    border-bottom: 5px dotted #885a5a;
+    border-bottom: 5px dotted #e06969;
 }
 
 .newsg{
@@ -222,7 +227,8 @@ body {
     clear: both;
     display: block;
     width: 760px;
-    margin-bottom: 16px;   
+    
+    margin-bottom: 16px;
 }
 
 .kako{
@@ -232,7 +238,7 @@ body {
     position: relative;
     right: 300px;
     text-align: right;
-    border-top: 5px dotted #885a5a;
+    border-top: 5px dotted #e06969;
     padding-top: 16px; 
 }
 
@@ -250,6 +256,7 @@ body {
     padding: 80px 0 80px 0;
     position: relative;
     overflow: hidden;
+    background-color: rgba(224,105,105,0.1);
 }
 .gallery-title{
     text-align: center;
@@ -266,8 +273,9 @@ body {
 .gallery-title-border{
     display: block;
     width: 940px;
-    border-bottom: 11px solid #e06969;
+    height: 11px;
     margin: 0 auto 48px auto;
+    background-image: linear-gradient(to top,#e06969,#fff);
 }
 
 .gallery-list{
@@ -280,7 +288,7 @@ body {
 .gallery-list li{
     display: block;
     font-size: 16px;
-    font-style: bold;
+    font-weight: bold;
     width: 220px;
     height: 202px;
     float: left;
@@ -296,6 +304,7 @@ body {
     padding: 80px 0 80px 0;
     position: relative;
     overflow: hidden;
+    background-color: rgba(224,105,105,0.1);
 }
 .access-title{
     text-align: center;
@@ -312,8 +321,9 @@ body {
 .access-title-border{
     display: block;
     width: 940px;
-    border-bottom: 11px solid #e06969;
+    height: 11px;
     margin: 0 auto 36px auto;
+    background-image: linear-gradient(to top,#e06969,#fff);
 }
 
 .access-left{
@@ -418,7 +428,7 @@ body {
     line-height: 2;
     font-size: 18px;
     text-decoration: none;
-    padding: 4px 10px 8px 10px;
+/*    padding: 4px 10px 8px 10px;*/
     border: 2px solid #fff;
     border-radius: 2px; 
 }
@@ -427,13 +437,12 @@ body {
     display: inline-block;
     color: #fff;
     width: 115px;
-    height: 35px;
-    line-height:2;
+    height: 38px;  
+    line-height: 38px;
     background-color: #55acee;
     font-size: 18px;
     text-decoration: none;
-    padding:4px 10px 8px 10px;  
-    border-radius: 2px; 
+    border-radius: 2px;
 }
 
 .copyright{
